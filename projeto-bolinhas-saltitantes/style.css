@@ -1,4 +1,5 @@
 * {
+  /* Reset geral de algumas config que vem por padrão do CSS para laguns marcadores do HTML */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,10 +8,26 @@
 
 body {
   background-color: rgb(20, 20, 20);
+  /* Overflow vai fazer com que as barras de scroll sejam escondidas */
+  overflow: hidden;
+}
+
+div {
+  /* Margin:auto;  Está centralizando a "div" */
+  margin: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 2%;
+  text-align: center;
+  /* Atenção = para centralizar a "div" é preciso delimitar um tamanho horizontal para ela */
+  width: 70%;
 }
 
 h1 {
-  text-align: center;
   font-size: 3.125rem;
   color: beige;
+}
+
+canvas {
+  /* pelo que entendi, a medida "vh" é referente à altura visível da tela (viewport height) */
+  height: 98vh;
 }
