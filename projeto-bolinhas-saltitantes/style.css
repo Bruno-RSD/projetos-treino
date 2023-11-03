@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   /* Reset geral de algumas config que vem por padrão do CSS para laguns marcadores do HTML */
   box-sizing: border-box;
@@ -22,6 +24,11 @@ div {
   width: 70%;
 }
 
+#container {
+  /* tem que usar ["solid" + Cor] para funcionar a impressão da borda*/
+  border: 2px solid beige;
+}
+
 h1 {
   font-size: 3.125rem;
   color: beige;
@@ -29,5 +36,6 @@ h1 {
 
 canvas {
   /* pelo que entendi, a medida "vh" é referente à altura visível da tela (viewport height) */
-  height: 98vh;
+  height: 100%;
+  width: 100%;
 }
