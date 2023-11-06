@@ -10,6 +10,7 @@
 
 body {
   background-color: rgb(48, 48, 48);
+  transition: 0.5s;
 }
 
 div {
@@ -39,32 +40,34 @@ h2 {
   font-size: 28px;
   padding: 20px;
   width: 200px;
-  transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  box-shadow: 0 4px #634741;
 }
 
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
-.button span:after {
-  content: "oi";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.button:hover {
+  background-color: #c53e14;
 }
 
-.button:hover span {
-  padding-right: 25px;
+.button:active {
+  background-color: #471404;
+  transform: translateY(2px);
+  box-shadow: 0 2px #2b201e;
 }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+#divGeral {
+  margin-top: 20px;
+  background-color: rgb(73, 73, 73);
+  border-style: solid;
+  border-radius: 40px;
+  border-color: rgb(26, 26, 26);
+  border-width: 3px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0);
 }
