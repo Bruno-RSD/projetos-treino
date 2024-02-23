@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(201, 230, 255);
+  background-color: rgb(223, 240, 255);
 }
 
 h1 {
@@ -29,6 +29,14 @@ div {
   border-color: black;
 }
 
+img {
+  display: inline-block;
+  margin: 15px;
+  width: 270px;
+  height: 246px;
+  border-radius: 50%;
+}
+
 .barInsert {
   /* border: none; */
   border-color: rgba(118, 118, 255, 0.096);
@@ -41,6 +49,65 @@ div {
 }
 
 .container {
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  display: block;
+  width: 60%;
+  /* height: 500px; */
+  margin: auto;
   margin-top: 30px;
-  background-color: antiquewhite;
+  background-color: rgb(223, 188, 255);
+  /* background-color: rgb(215, 246, 250); */
+  border-width: 0;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.342);
 }
+
+h2 {
+  margin: 5px;
+}
+
+h3 {
+  margin: 5px;
+}
+
+h4 {
+  margin: 10px;
+  height: 200px;
+}
+
+.buttons {
+  display: block;
+  border: 0;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#prox {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  color: rgba(0, 110, 255, 0.829);
+  font-size: 50px;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+#prev {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  color: rgba(0, 153, 255, 0.685);
+  font-size: 50px;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+/* #prox:hover,
+#prev:hover {
+  color: rgba(0, 38, 255, 0.685);
+} */
