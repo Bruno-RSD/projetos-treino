@@ -11,6 +11,7 @@
 nav {
   display: flex; /* Torna os itens filhos flexíveis */
   background-color: rgb(248, 255, 255);
+  box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.349);
 }
 
 h1 {
@@ -20,10 +21,12 @@ h1 {
 
 #codding {
   color: black;
+  text-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.349);
 }
 
 #addict {
   color: rgb(66, 110, 255);
+  text-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.349);
 }
 
 button {
@@ -37,4 +40,59 @@ button {
 
 button:hover {
   transform: scale(1.1);
+}
+
+.container-hamburguer {
+  height: 100%;
+  margin: 1em 1em 1em auto;
+}
+
+.hamburguer {
+  width: 30px; /* Ajuste a largura do botão conforme necessário */
+  height: 15px; /* Ajuste a altura do botão conforme necessário */
+  cursor: pointer; /* Mostra o cursor como apontador ao passar por cima */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1em 1em 1em auto;
+  transition: all 0.3 ease;
+}
+
+.hamburguer-line {
+  width: 100%; /* Ocupa toda a largura do botão */
+  height: 3px; /* Altura das linhas */
+  background-color: #333; /* Cor das linhas */
+}
+
+.hamburguer:hover {
+  transform: scale(1.1);
+}
+
+.segundaNavegacao {
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.acessivel {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2em;
+}
+
+.primeiraNavegacao {
+  align-items: center;
+}
+
+.primeiraNavegacao .acessivel {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.links {
+  margin: 0 auto;
+  /* max-width: 400px; */
 }
