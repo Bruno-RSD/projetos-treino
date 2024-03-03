@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.side-bar {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  width: 400px;
+  height: 100vh;
+  transition: all 0.5s;
+  transform: translateX(-100%);
+  overflow: hidden;
+}
+
+.show-side-bar {
+  transform: translateX(0%);
+}
+
+h1 {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
+  text-shadow: 0.5px 3px 5px rgba(0, 0, 0, 0.493);
+  padding: 5px;
+  padding-bottom: 20px;
+  cursor: default;
+}
+
+#addict {
+  color: rgb(55, 142, 255);
+}
+
+.toggle-side-bar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  margin-left: auto;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 0.2s;
+}
+
+.toggle-side-bar:hover {
+  transform: scale(1.2) translateY(1px);
+}
+
+.toggle-side-bar:active {
+  transform: scale(0.9);
+}
+
+.fechar-nav {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 5px;
+
+  background-color: transparent;
+  color: red;
+  border: none;
+
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.fechar-nav:hover {
+  transform: scale(1.2) translateY(1px);
+}
+
+.fechar-nav:active {
+  transform: scale(0.9);
+}
+
+li {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+li:hover {
+  transform: translateX(2px);
+  background-color: rgb(162, 203, 255);
+}
+
+.links-social {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.links-social a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(51, 106, 255);
+  font-size: 30px;
+  padding: 0 10px 0 10px;
+  transition: all 0.3s;
+}
+
+.links-social a:hover {
+  transform: translateY(-5px);
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  /* .toggle-side-bar {
+    display: none;
+  } */
+  .side-bar {
+    width: 100vw;
+  }
+}

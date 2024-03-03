@@ -5,23 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- links -->
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/775da65f8a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Side Bar Project</title>
   </head>
   <body>
-    <button class="fechar-nav">X</button>
-    <button class="toggle-side-bar">BARS</button>
-    <ul class="lista-links">
-      <li>Home</li>
-      <li>About</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </ul>
+    <button class="toggle-side-bar">
+      <i class="fa-solid fa-bars icon-menu"></i>
+    </button>
+    <div class="side-bar">
+      <h1>Coding</h1>
+      <h1 id="addict">Addict</h1>
+      <button class="fechar-nav">X</button>
 
-    <div class="links-social">
-      <a href="#" class="linkedin"></a>
-      <a href="#" class="instagram"></a>
-      <a href="#" class="github"></a>
-      <a href="#" class="facebook"></a>
+      <ul class="lista-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+      <div class="links-social">
+        <a href="#" class="linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
     </div>
     <!-- Javascript -->
     <script src="main.js"></script>
