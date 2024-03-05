@@ -37,4 +37,8 @@ Ainda não aprendi como realizar deploy, mas assim que aprender colocarei aqui p
 
 ⭕ <b>Aprender a fazer deploy dos projetos.</b>
 
+Por enquanto estão aqui:
+
+[![image](PROJETOS_TREINO!.png)](https://bruno-rsd.github.io/projetos-treino/counter/counter.html)
+
 <!-- [projeto1](counter/) -->
