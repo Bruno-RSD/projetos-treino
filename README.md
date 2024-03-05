@@ -32,8 +32,8 @@ Entendi que dificulta muito reusar uma classe em outro processo que poderia ter 
 
 ## Como visualizar esses projetos:
 
-Atualmente a única maneira é baixando os arquivos e executando em sua máquina (sorry).
-Ainda não aprendi como realizar deploy, mas assim que aprender colocarei aqui para cada projeto meu.
+~~Atualmente a única maneira é baixando os arquivos e executando em sua máquina (sorry).~~
+~~Ainda não aprendi como realizar deploy, mas assim que aprender colocarei aqui para cada projeto meu.~~
 
 ✔️ <b>Aprender a fazer deploy dos projetos.</b>
 
